@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2014405139351996');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2014405139351996&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Achadinhos Automotivos</title>
+<title>Grupo VIP Automotivo</title>
 
 <style>
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #111, #1f1f1f);
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,37 +35,46 @@ body {
 }
 
 .card {
-  background: #1c1c1c;
+  background: #121212;
   padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 0 40px rgba(0,0,0,0.6);
-  max-width: 400px;
+  border-radius: 25px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  max-width: 420px;
+  border: 1px solid #2a2a2a;
 }
 
 h1 {
-  margin-bottom: 15px;
   font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.highlight {
+  color: #00e676;
 }
 
 p {
-  font-size: 16px;
-  opacity: 0.8;
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 12px;
 }
 
 .button {
   margin-top: 25px;
   display: inline-block;
-  padding: 15px 25px;
+  padding: 16px 30px;
   background: #00c853;
   color: white;
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 14px;
   font-weight: bold;
+  font-size: 16px;
   transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,200,83,0.4);
 }
 
 .button:hover {
   background: #00e676;
+  transform: scale(1.05);
 }
 </style>
 
@@ -57,10 +82,15 @@ p {
 <body>
 
 <div class="card">
-  <h1>🔥 Achadinhos Automotivos</h1>
-  <p>Acessórios com desconto atualizados todos os dias</p>
-  <a class="button" href="https://chat.whatsapp.com/SEULINKAQUI" target="_blank">
-    Entrar no Grupo VIP
+  <h1>🚗🏍️ Grupo <span class="highlight">VIP</span> Automotivo</h1>
+  
+  <p>Achadinhos exclusivos para carro e moto.</p>
+  <p>Som • LED • Multimídia • Capas • Ferramentas • Acessórios</p>
+
+<a class="button" href="https://chat.whatsapp.com/LHBIMMt5p6NDFWoA2YYH6O" 
+onclick="fbq('track', 'Lead');" 
+target="_blank">
+    🔥 Entrar no Grupo VIP
   </a>
 </div>
 
